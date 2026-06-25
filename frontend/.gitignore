@@ -1,0 +1,22 @@
+# Next.js
+.next/
+out/
+build/
+
+# Node
+node_modules/
+.pnpm-debug.log
+
+# Env files - never commit these
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
