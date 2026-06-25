@@ -19,6 +19,7 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.auth',
+    'django.contrib.staticfiles', 
     'rest_framework',
     'corsheaders',
     'whitenoise.runserver_nostatic',
